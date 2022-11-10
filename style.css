@@ -1,0 +1,225 @@
+body {
+    background-color: rgba(0, 0, 0, 0.921);
+}
+
+/*navigation*/
+
+#navigation {
+    background-color: rgba(0, 0, 0, 0.921);
+    padding-top: 20px;
+}
+
+.navbar-expand-lg {
+    padding: 0px;
+}
+
+.navigation-buttons {
+    margin-left: 60rem;
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link:hover {
+    color: orangered;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
+
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+/*title section*/
+#about-me {
+    margin-top: 10rem;
+    padding: 0rem 20rem 0rem 5rem;
+}
+
+.email {
+    color: red;
+}
+
+h3 {
+    color: orangered;
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    color: white;
+}
+
+h3,
+h1 {
+    line-height: 5rem;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: white;
+}
+
+.button {
+    color: white;
+    margin-top: 2rem;
+}
+
+.myphoto {
+    position: relative;
+    right: 1rem;
+    padding-right: 4rem;
+    margin: 7rem 0rem 0rem 0rem;
+}
+
+.fa-brands {
+    display: grid;
+    text-align: end;
+    padding-right: 2rem;
+    font-size: x-large;
+    position: relative;
+    top: -26rem;
+}
+
+i {
+    line-height: 3rem !important;
+    color: white;
+}
+.trademark{
+    color: white;
+    margin-left: 57rem;
+    position: relative;
+    bottom: 9rem;
+}
+/***********************************************************************************@media***************************************************/
+/*media query*/
+
+/*navigaton bar */
+
+@media (max-width:950px) {
+    .nav-link {
+        position: relative;
+        right: 60rem;
+        top: -1rem;
+        line-height: 1.4rem;
+    }
+}
+
+@media (max-width:950px) {
+    #formedia {
+        position: relative;
+        right: 58.6rem;
+    }
+}
+
+@media (max-width:950px) {
+    .navbar-brand {
+        margin-left: 1rem !important;
+    }
+}
+@media (max-width:950px) {.navbar-toggler{background-color:bisque; margin-top: 0rem; }
+}
+@media (max0width:950px){
+    v{margin-bottom: 3rem; margin-top: -4rem;}
+}
+    
+
+
+
+/*title section*/
+
+@media (max-width: 950px) {
+
+    h3,
+    h1 {
+        font-size: 1.6rem;
+        position: relative;
+        left: 50px;
+        line-height: 1.6rem;
+        text-align: center;
+        box-sizing: initial;
+    }
+}
+@media (max-width:950px) { .formedias { font-size: 1.4rem;}
+    
+}
+
+@media (max-width:950px) {
+
+    *,
+    ::after,
+    ::before {
+        box-sizing: content-box;
+    }
+}
+
+@media (max-width:950px) {
+    #about-me {
+        padding: 0rem;
+        margin-top: 5rem;
+        margin: 2rem -3rem;
+    }
+
+}
+
+@media (max-width:950px) {
+    .description {
+        margin: 1rem 3rem;
+        word-spacing: 0.15rem;
+        font-size: small;
+        position: relative;
+        left: 50px;
+        line-height: 1.2rem;
+        text-align: center;
+        box-sizing: initial;
+    }
+
+}
+
+@media (max-width:950px) {
+    .button,.mediah {
+        
+        font-size:smaller;
+    }
+
+}
+
+/*photo*/
+@media (max-width:950px) {
+    .myphoto {
+        height: 20rem;
+        width: 24rem;
+        margin: 0rem;
+    }
+
+}
+@media (max-width:950px) { .fa-bitcoin:before{font-size: x-small; position: relative; top: -2.7rem; left: 1rem;}
+    
+}
+/*social media handle*/
+
+@media (max-width:950px) {a {color:black;}
+    
+}
+@media (max-width:950px) {.fa-brands{ text-align: center !important; display: inline; }
+    
+}
+@media (max-width:950px) {.trademark{ display:contents; text-align: center; font-size: larger;}
+    
+}
+@media (max-width:950px) {.mediahandless {text-align: center; margin-top: 27rem; margin-bottom: -25rem;}
+    
+}
+@media (max-width:950px) { .mediahl{text-align: center !important; margin-left: 6rem;}
+    
+}
